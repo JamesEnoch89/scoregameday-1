@@ -1,13 +1,53 @@
 <!DOCTYPE html>
 <html>
-  <head lang="en">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scoregameday1</title>
-    <link rel="stylesheet" href="/screen.css">
-  </head>
-  <body>
-    <h1>Hello, World!</h1>
-    <script src="/main.js" charset="utf-8"></script>
-  </body>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TeamScore</title>
+  <link rel="stylesheet" href="./screen.css">
+</head>
+
+<body>
+  <section class="header">
+    <h1>My Score Board</h1>
+  </section>
+
+  <section class="team-container">
+    <section>
+      <h2 class="renamedteam1">Team 1</h2>
+      <h1 class="teamonescore">0</h1>
+    </section>
+    <section class="team-two-name">
+      <h2 class="renamedteam2">Team 2</h2>
+      <h1 class="teamtwoscore">0</h1>
+    </section>
+  </section>
+
+  <section class="team-update-container">
+    <section class="team-one-info">
+        <span>Update Team 1 Name</span>
+        <input class="rename1" type="text">
+        <button onclick="updatet1()">Update</button>
+        <br> Update Team 1 Score
+        <button onclick="t1add1()">Add 1</button>
+        <button onclick="t1sub1()">Subtract 1</button>
+    </section>
+
+    <section class="team-two-info">
+      <span>Update Team 2 Name</span>
+      <input class="rename2" type="text">
+        <button onclick="updatet2()">Update</button>
+        <br> Update Team 2 Score
+        <button onclick="t2add1()">Add 1</button>
+        <button onclick="t2sub1()">Subtract 1</button>
+    </section>
+  </section>
+
+
+
+
+  <script src="./main.js" charset="utf-8"></script>
+</body>
+
 </html>

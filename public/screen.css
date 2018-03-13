@@ -6,4 +6,34 @@ body {
   margin: 0;
   min-height: 100%;
   font: 16px / 1 sans-serif;
+  padding: 2em;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  font-size: 200%;
+}
+
+.team-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.teamonescore{
+  font-size: 200%;
+}
+
+.team2score{
+  font-size: 200%;
+}
+
+.team-update-container{
+  display: flex;
+  flex-direction: row;
+  font-weight: bold;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 1em;
 }
